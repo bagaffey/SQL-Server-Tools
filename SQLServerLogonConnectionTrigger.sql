@@ -8,9 +8,6 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-
-
-
 /*
  * <<EXCLUDED_LOGINNAMES_APPNAMES_TABLE>> Replace this with a table that contains login names and application names that
  * should be excluded from being logged.
@@ -66,5 +63,3 @@ BEGIN
 	END;
 END;
 GO
-
-
