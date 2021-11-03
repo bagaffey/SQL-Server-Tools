@@ -37,7 +37,7 @@ BEGIN
 			  ORIGINAL_LOGIN() NOT LIKE '%$' AND
 			  A.is_user_process = 1 AND
 			  (
-				A.nt_domain = 'MAY' OR
+				A.nt_domain = '' OR
 				A.nt_domain IS NULL
 			  )
 			  /* Use this query to exclude certain users & apps
